@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- TextView hiển thị vị trí + giá trị item được chọn -->
+    <TextView
+        android:id="@+id/txtSelection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00FF00"
+    android:textColor="#000000"
+    android:padding="10dp"
+    android:textSize="18sp"
+    android:text="Điện thoại được chọn" />
+
+    <!-- ListView hiển thị danh sách -->
+    <ListView
+        android:id="@+id/listPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="1dp"/>
+</LinearLayout>
